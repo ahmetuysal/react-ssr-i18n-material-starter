@@ -13,12 +13,14 @@
     "start": "cross-env NODE_ENV=production node dist/index.js"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
     "cross-env": "^5.2.0",
     "express": "^4.17.1",
     "next": "^9.4.4",
     "next-i18next": "^4.5.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-i18next": "^11.7.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.7",
