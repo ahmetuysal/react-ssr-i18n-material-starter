@@ -2,12 +2,12 @@ import * as React from 'react';
 import Link from 'next/link';
 
 const Footer: React.FC = () => (
-  <footer className="mt-6 bg-gray">
-    <div className="container-xl p-responsive">
-      <div className="d-flex flex-wrap pt-5 clearfix">
-        <div className="col-6 col-lg-3 mb-5 ">
+  <footer className="mt-6 bg-gray-100">
+    <div className="container mx-auto px-4">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-4">
+        <div className="mb-5">
           <Link href="/">
-            <a href="/" aria-label="Go to Easy AI homepage">
+            <a href="/" className="text-gray-600 hover:text-gray-900" aria-label="Go to Easy AI homepage">
               <img
                 src="/assets/logo.png"
                 className="width-fit"
@@ -17,41 +17,41 @@ const Footer: React.FC = () => (
             </a>
           </Link>
         </div>
-        <div className="col-6 col-lg-3 mb-3 mb-md-2">
+        <div className="mb-3 mb-md-2">
           <div className="pr-3 pr-md-0 pl-md-4">
-            <h2 className="h4 mb-3">Title</h2>
-            <ul className="list-style-none f5">
-              <li className="lh-condensed mb-3">
+            <h2 className="font-semibold mb-3">Title</h2>
+            <ul className="list-none text-sm">
+              <li className="leading-tight mb-3">
                 <Link href="/">
-                  <a href="/">
+                  <a href="/" className="text-gray-600 hover:text-gray-900">
                     Link 1
                   </a>
                 </Link>
               </li>
-              <li className="lh-condensed mb-3">
+              <li className="leading-tight mb-3">
                 <Link href="/">
-                  <a href="/">
+                  <a href="/" className="text-gray-600 hover:text-gray-900">
                     Link 2
                   </a>
                 </Link>
               </li>
-              <li className="lh-condensed mb-3">
+              <li className="leading-tight mb-3">
                 <Link href="/">
-                  <a href="/">
+                  <a href="/" className="text-gray-600 hover:text-gray-900">
                     Link 3
                   </a>
                 </Link>
               </li>
-              <li className="lh-condensed mb-3">
+              <li className="leading-tight mb-3">
                 <Link href="/">
-                  <a href="/">
+                  <a href="/" className="text-gray-600 hover:text-gray-900">
                     Link 4
                   </a>
                 </Link>
               </li>
-              <li className="lh-condensed mb-3">
+              <li className="leading-tight mb-3">
                 <Link href="/">
-                  <a href="/">
+                  <a href="/" className="text-gray-600 hover:text-gray-900">
                     Link 5
                   </a>
                 </Link>
@@ -59,41 +59,41 @@ const Footer: React.FC = () => (
             </ul>
           </div>
         </div>
-        <div className="col-6 col-lg-3 mb-3 mb-md-2">
+        <div className="mb-3 mb-md-2">
           <div className="pr-3 pr-md-0 pl-md-4">
-            <h2 className="h4 mb-3">Legal</h2>
-            <ul className="list-style-none f5">
-              <li className="lh-condensed mb-3">
+            <h2 className="font-semibold mb-3">Legal</h2>
+            <ul className="list-none text-sm">
+              <li className="leading-tight mb-3">
                 <Link href="/">
-                  <a href="/">
+                  <a href="/" className="text-gray-600 hover:text-gray-900">
                     Link 1
                   </a>
                 </Link>
               </li>
-              <li className="lh-condensed mb-3">
+              <li className="leading-tight mb-3">
                 <Link href="/">
-                  <a href="/">
+                  <a href="/" className="text-gray-600 hover:text-gray-900">
                     Link 2
                   </a>
                 </Link>
               </li>
-              <li className="lh-condensed mb-3">
+              <li className="leading-tight mb-3">
                 <Link href="/">
-                  <a href="/">
+                  <a href="/" className="text-gray-600 hover:text-gray-900">
                     Link 3
                   </a>
                 </Link>
               </li>
-              <li className="lh-condensed mb-3">
+              <li className="leading-tight mb-3">
                 <Link href="/">
-                  <a href="/">
+                  <a href="/" className="text-gray-600 hover:text-gray-900">
                     Link 4
                   </a>
                 </Link>
               </li>
-              <li className="lh-condensed mb-3">
+              <li className="leading-tight mb-3">
                 <Link href="/">
-                  <a href="/">
+                  <a href="/" className="text-gray-600 hover:text-gray-900">
                     Link 5
                   </a>
                 </Link>
@@ -101,41 +101,41 @@ const Footer: React.FC = () => (
             </ul>
           </div>
         </div>
-        <div className="col-6 col-lg-3 mb-3 mb-md-2">
-          <div className=" pr-3 pr-md-0 pl-md-4">
-            <h2 className="h4 mb-3">Company</h2>
-            <ul className="list-style-none f5">
-              <li className="lh-condensed mb-3">
+        <div className="mb-3 mb-md-2">
+          <div className="pr-3 pr-md-0 pl-md-4">
+            <h2 className="font-semibold mb-3">Company</h2>
+            <ul className="list-none text-sm">
+              <li className="leading-tight mb-3">
                 <Link href="/">
-                  <a href="/">
+                  <a href="/" className="text-gray-600 hover:text-gray-900">
                     Link 1
                   </a>
                 </Link>
               </li>
-              <li className="lh-condensed mb-3">
+              <li className="leading-tight mb-3">
                 <Link href="/">
-                  <a href="/">
+                  <a href="/" className="text-gray-600 hover:text-gray-900">
                     Link 2
                   </a>
                 </Link>
               </li>
-              <li className="lh-condensed mb-3">
+              <li className="leading-tight mb-3">
                 <Link href="/">
-                  <a href="/">
+                  <a href="/" className="text-gray-600 hover:text-gray-900">
                     Link 3
                   </a>
                 </Link>
               </li>
-              <li className="lh-condensed mb-3">
+              <li className="leading-tight mb-3">
                 <Link href="/">
-                  <a href="/">
+                  <a href="/" className="text-gray-600 hover:text-gray-900">
                     Link 4
                   </a>
                 </Link>
               </li>
-              <li className="lh-condensed mb-3">
+              <li className="leading-tight mb-3">
                 <Link href="/">
-                  <a href="/">
+                  <a href="/" className="text-gray-600 hover:text-gray-900">
                     Link 5
                   </a>
                 </Link>
@@ -146,15 +146,15 @@ const Footer: React.FC = () => (
       </div>
     </div>
     <div>
-      <div className="container-xl p-responsive f6 py-4 d-sm-flex flex-justify-between flex-row-reverse flex-items-center">
-        <ul className="list-style-none d-flex flex-items-center mb-3 mb-sm-0 lh-condensed-ultra">
+      <div className="container mx-auto p-4 text-xs sm:flex justify-between flex-row-reverse items-center">
+        <ul className="list-none flex items-center mb-3 sm:mb-0 leading-none">
           <li className="mr-3">
             <a
               href="https://twitter.com/easyaiservices"
               title="EasyAI on Twitter"
               target="_blank"
               rel="noopener noreferrer"
-              className="link-gray"
+              className="text-gray-600 hover:text-gray-900"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -178,7 +178,7 @@ const Footer: React.FC = () => (
               title="EasyAI on Facebook"
               target="_blank"
               rel="noopener noreferrer"
-              className="link-gray"
+              className="text-gray-600 hover:text-gray-900"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -202,7 +202,7 @@ const Footer: React.FC = () => (
               title="EasyAI on Instagram"
               target="_blank"
               rel="noopener noreferrer"
-              className="link-gray"
+              className="text-gray-600 hover:text-gray-900"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -223,7 +223,7 @@ const Footer: React.FC = () => (
               title="EasyAI on LinkedIn"
               target="_blank"
               rel="noopener noreferrer"
-              className="link-gray"
+              className="text-gray-600 hover:text-gray-900"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -247,7 +247,7 @@ const Footer: React.FC = () => (
               title="EasyAI on GitHub"
               target="_blank"
               rel="noopener noreferrer"
-              className="link-gray"
+              className="text-gray-600 hover:text-gray-900"
             >
               <svg
                 height="20"
@@ -269,7 +269,7 @@ const Footer: React.FC = () => (
             </a>
           </li>
         </ul>
-        <ul className="list-style-none d-flex text-gray">
+        <ul className="list-none flex text-gray-700">
           <li className="mr-3">© 2020 EasyAI · Made with ❤ in Istanbul</li>
         </ul>
       </div>

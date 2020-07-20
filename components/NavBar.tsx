@@ -25,7 +25,7 @@ const NavBar: React.FC = () => {
   return (
     <AppBar className={classes.appBar}>
       <Toolbar>
-        <nav className="d-flex flex-items-center width-full container-xl p-responsive">
+        <nav className="flex items-center w-full container mx-auto px-4">
           <Link href="/">
             <a href="/">
               <img

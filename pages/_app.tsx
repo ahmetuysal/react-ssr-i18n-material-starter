@@ -52,7 +52,9 @@ const MyApp = (props: AppProps) => {
         <div className={classes.root}>
           <div className={classes.appFrame}>
             <NavBar />
-            <Component {...pageProps} />
+            <div className={classes.content}>
+              <Component {...pageProps} />
+            </div>
             <Footer />
           </div>
         </div>
