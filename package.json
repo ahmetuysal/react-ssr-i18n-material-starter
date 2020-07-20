@@ -1,6 +1,12 @@
 {
-  "name": "custom-server-typescript",
-  "version": "1.0.0",
+  "name": "react-ssr-i18n-material-starter",
+  "version": "0.1.0",
+  "license": "GPLv3",
+  "author": {
+    "email": "auysal16@ku.edu.tr",
+    "name": "Ahmet Uysal",
+    "url": "https://github.com/ahmetuysal"
+  },
   "scripts": {
     "dev": "nodemon",
     "build": "next build && tsc --project tsconfig.server.json",
